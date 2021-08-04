@@ -14,11 +14,12 @@ public class Car {
 	void setSpeed(int speed) {
 		this.speed = speed;
 	}
+
 	void run() {
-		for(int i=0; i<5;i++) {
-			this.setSpeed((i+1)*10);
-			System.out.printf("%S 가 달립니다 ( 시속 %d km/h)\n",this.model,this.speed);
-			
+		for (int i = 0; i < 5; i++) {
+			this.setSpeed((i + 1) * 10);
+			System.out.printf("%S 가 달립니다 ( 시속 %d km/h)\n", this.model, this.speed);
+
 		}
 	}
 
