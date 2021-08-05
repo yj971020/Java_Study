@@ -12,7 +12,5 @@ public class SingletonExample {
 		} else {
 			System.out.println("다른 Singleton 객체 입니다");
 		}
-
 	}
-
 }
