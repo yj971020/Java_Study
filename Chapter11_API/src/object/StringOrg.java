@@ -21,8 +21,6 @@ public class StringOrg {
 		
 		String str = "korea";
 		System.out.println(str.equals("korea"));
-
-
 	}
 
 }
