@@ -31,7 +31,7 @@ public class MemberExample {
 		Member obj3 = new Member("red");
 
 		if (obj1.equals(obj2)) {
-			System.out.println("obj1과 obj2 는 동등합니다. ");
+			System.out.println("obj1과 obj2 는 동등합니다.  ");
 		} else {
 			System.out.println("obj1 과 obj2 는 동등하지 않습니다.");
 		}
