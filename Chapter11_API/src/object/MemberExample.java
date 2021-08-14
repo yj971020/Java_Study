@@ -17,7 +17,7 @@ class Member {
 				return true;
 			}
 		}
-		//매개값이 Member 타입이 아니거나 id 필드 값이 다른경우
+		//매개값이 Member 타입이 아니거나 id 필드 값이 다른경우!
 		return false;
 	}
 }
