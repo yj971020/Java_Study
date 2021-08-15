@@ -37,9 +37,9 @@ public class MemberExample {
 		}
 
 		if (obj1.equals(obj3)) {
-			System.out.println("obj 1과 obj3 은 동등합니다.");
+			System.out.println("obj 1과 obj 3 은 동등합니다.");
 		} else {
-			System.out.println("obj1 과 obj3 는 동등하지 않습니다.");
+			System.out.println("obj 1 과 obj 3 는 동등하지 않습니다.");
 		}
 	}
 
