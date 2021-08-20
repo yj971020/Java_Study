@@ -1,6 +1,9 @@
 package ch13_3_example;
 
+import java.util.Collections;
 import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Set;
 
 public class LottoGenExample {
@@ -20,6 +23,9 @@ public class LottoGenExample {
 		while(set.size()<COUNT) { //set.size : 현재 저장된 갯수 
 			set.add((int)(Math.random()*MAX)+1);
 		}
+		
+		List<Integer>	lotto= new LinkedList<>(set);
+		Collections.sort(lotto);
 		System.out.println(set);
 	}
 }

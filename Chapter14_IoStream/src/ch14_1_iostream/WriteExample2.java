@@ -5,20 +5,18 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 
-public class WriteExample {
+public class WriteExample2 {
 
 	public static void main(String[] args) throws IOException {
 		
 		
-		byte a=10;
-		byte b=20;
-		byte c=30;
+	
 		String path="C:/Temp/test1.db";
 		OutputStream out =new FileOutputStream(path);
 		
-		out.write(a);
-		out.write(b);
-		out.write(c);
+		byte[] array = {10,20,30,40,50};
+		
+		out.write(array, 1,3);
 		
 		out.flush();//출력버퍼에 잔류하는 모든 바이트 출력
 		out.close();//출력스트림을 닫음
