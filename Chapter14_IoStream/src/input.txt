@@ -1,0 +1,5 @@
+id=call1212
+eng_name=kim
+kor_name=±è
+data=1,2,3,4,5
+c:/Temp
