@@ -11,8 +11,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="com.libs.collections.MyIntList" project="Chapter13_CollectionFramework" 
-    file="/Chapter13_CollectionFramework/src/com/libs/collections/MyIntList.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="2" language="java" name="com.libs.collections.MyIntList" project="Chapter14_IoStream" 
+    file="/Chapter14_IoStream/src/com/libs/collections/MyIntList.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="237" y="464"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
