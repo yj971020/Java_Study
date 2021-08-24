@@ -1,0 +1,59 @@
+public class ServerSocket
+extends Object
+implements Closeable
+
+This class implements server sockets. A server socket waits forrequests to come in over the network. It performs some operationbased on that request, and then possibly returns a result to the requester. 
+The actual work of the server socket is performed by an instanceof the SocketImpl class. An application canchange the socket factory that creates the socketimplementation to configure itself to create socketsappropriate to the local firewall.
+Since:JDK1.0See Also:SocketImpl, setSocketFactory(java.net.SocketImplFactory), ServerSocketChannel
+
+   
+Constructor Summary
+Constructors 
+
+Constructor and Description
+
+ServerSocket() 
+Creates an unbound server socket.
+ 
+ServerSocket(int port) 
+Creates a server socket, bound to the specified port.
+ 
+ServerSocket(int port,int backlog) 
+Creates a server socket and binds it to the specified local portnumber, with the specified backlog.
+ 
+ServerSocket(int port,int backlog, InetAddress bindAddr) 
+Create a server with the specified port, listen backlog, andlocal IP address to bind to.
+ 
+
+   
+Method Summary
+All MethodsStatic MethodsInstance MethodsConcrete Methods 
+
+Modifier and Type
+
+Method and Description
+
+Socket accept() 
+Listens for a connection to be made to this socket and acceptsit.
+ 
+void bind(SocketAddress endpoint) 
+Binds the ServerSocket to a specific address(IP address and port number).
+ 
+void bind(SocketAddress endpoint,int backlog) 
+Binds the ServerSocket to a specific address(IP address and port number).
+ 
+void close() 
+Closes this socket.
+ 
+ServerSocketChannel getChannel() 
+Returns the unique ServerSocketChannel objectassociated with this socket, if any.
+ 
+InetAddress getInetAddress() 
+Returns the local address of this server socket.
+ 
+int getLocalPort() 
+Returns the port number on which this socket is listening.
+ 
+SocketAddress getLocalSocketAddress 
+
+
