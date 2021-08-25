@@ -15,7 +15,7 @@ public class HashTable {
 		 * 접근 가능
 		 */
 
-		// 아이다 ,비번 검사
+		// 아이디 ,비번 검사
 
 		Map<String, String> map = new Hashtable<String, String>();
 		map.put("Spring", "12");
