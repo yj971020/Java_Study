@@ -78,8 +78,7 @@ public class FTPServer {
 			while (true) {
 				// 읽기
 				int data = fin.read();
-				if (data == -1)
-					
+				if (data == -1)	
 				break;
 
 				// 쓰기

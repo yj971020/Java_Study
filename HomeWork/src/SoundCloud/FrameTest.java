@@ -1,16 +1,18 @@
 package SoundCloud;
 
 
-	import java.io.File;
+import java.awt.Container;
+import java.io.File;
 
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 	
 	
-	  public class Test { 
+	  public class FrameTest { 
 		  
 		  public static void main(String[] args) throws Exception {
 			selectMusic(2);
@@ -40,6 +42,7 @@ import javax.swing.JLabel;
 			public static void playmusic(String FilePath) throws Exception { //파일의 경로를 받아 음악 재생 
 			while (true) {
 
+					
 					File a = new File(FilePath);
 					AudioInputStream b = AudioSystem.getAudioInputStream(a);
 					Clip c = AudioSystem.getClip();
@@ -58,12 +61,16 @@ import javax.swing.JLabel;
 	    	
 	            
 	        JFrame f = new JFrame("음악재생"); 
+	  
+	       
+	        JLabel label = new JLabel(path);
 	        
 	        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	        JButton btn = new JButton("버튼");
 	        f.setLocationRelativeTo(null);
 	        f.setSize(300,300);
-	        f.setVisible(true);   
-	        JLabel label = new JLabel(path);
+			f.setVisible(true);
+	   
 	          
 	        File file = new File(path);
 	        System.out.println(file.exists( )); //true

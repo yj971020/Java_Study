@@ -12,7 +12,7 @@ public class CatchOrderExample {
 			int result = value1 + value2;
 
 			System.out.printf("%d+%d=%d", value1, value2, result);
-		} catch (ArrayIndexOutOfBoundsException e) {
+		} catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("실행 매개값의 수가 부족합니다.");
 
 		} catch (Exception e) {
