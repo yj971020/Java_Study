@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Chapter01_java/src"/>
+	<classpathentry kind="src" path="Chapter02_VariableTypes/src"/>
+	<classpathentry kind="src" path="Chapter03_Operator/src"/>
+	<classpathentry kind="src" path="Chapter04_ControlFlow/src"/>
+	<classpathentry kind="src" path="Chapter05_ReferenceType/src"/>
+	<classpathentry kind="src" path="Chapter06_Class/src"/>
+	<classpathentry excluding="ch07_3_polymorphism_ex/" kind="src" path="Chapter07_Inheritance/src"/>
+	<classpathentry kind="src" path="Chapter07_Inheritance/src/ch07_3_polymorphism_ex"/>
+	<classpathentry kind="src" path="Chapter08_Interface/src"/>
+	<classpathentry kind="src" path="Chapter09_NestedClass/src"/>
+	<classpathentry kind="src" path="Chapter10_Exception/src"/>
+	<classpathentry kind="src" path="Chapter11_API/src"/>
+	<classpathentry kind="src" path="Chapter12_Thread/src"/>
+	<classpathentry kind="src" path="Chapter13_CollectionFramework/src"/>
+	<classpathentry kind="src" path="Chapter14_IoStream/src"/>
+	<classpathentry kind="src" path="Chapter16_Networking/src"/>
+	<classpathentry kind="src" path="FirstMiniProject/src"/>
+	<classpathentry kind="src" path="HomeWork/src"/>
+	<classpathentry kind="lib" path="Chapter11_API/libs/calc.jar"/>
+	<classpathentry kind="output" path="Chapter01_java/bin"/>
+</classpath>
