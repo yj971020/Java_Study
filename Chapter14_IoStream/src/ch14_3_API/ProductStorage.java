@@ -12,7 +12,7 @@ public class ProductStorage {
 	public void showMenu() {
 		while(true) {
 			System.out.println("====================");
-			System.out.println("1.등록 | 2. 목록 | 3. 종료");
+			System.out.println("1.등록 |2. 목록 |3. 종료");
 			System.out.println("====================");
 			
 			System.out.println("선택: ");
