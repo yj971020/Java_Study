@@ -29,18 +29,18 @@ public void regiserProduct() {
 		Product product = new Product();
 		product.setPno(++counter);
 		
-		System.out.print("상품명: ");
+		System.out.print("상품명:  ");
 		product.setName(scanner.nextLine());
 		
-		System.out.println("가격: ");
+		System.out.println("가격:  ");
 		product.setPrice(Integer.parseInt(scanner.nextLine()));
 
-	System.out.print("재고: ");
+	System.out.print("재고:  ");
 	product.setStock(Integer.parseInt(scanner.nextLine()));
 	
 	list.add(product);
 	}catch(Exception e) {
-		System.out.println("등록에러: "+e.getMessage());
+		System.out.println("등록에러:  "+e.getMessage());
 	}
 }
 public void showProducts() {
