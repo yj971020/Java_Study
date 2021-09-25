@@ -1,4 +1,0 @@
-Album = Good Vibes Only
-Artist = ZICO (Block B)
-Date = 2016.05.23
-
