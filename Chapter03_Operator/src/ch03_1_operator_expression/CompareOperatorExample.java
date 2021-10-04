@@ -9,7 +9,7 @@ public class CompareOperatorExample {
 		boolean result2 = (num1 != num2);
 		boolean result3 = (num1 <= num2);
 
-		System.out.printf("result1= %b\n ", result1);
+		System.out.printf("result1= %b\n", result1);
 		System.out.printf("result2= %b\n ", result2);
 		System.out.printf("result3= %b\n ", result3);
 
